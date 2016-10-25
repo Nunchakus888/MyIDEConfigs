@@ -1,0 +1,3 @@
+[
+	{ "caption": "本地打包..", "command": "build_apk", "args": {"dirs": []} }
+]

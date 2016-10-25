@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ADBView",
+		"APICloudLoader",
+		"APICloudPackage",
+		"APICloudSnippets",
+		"Package Control",
+		"PackageResourceViewer",
+		"TeX Live Package Manager"
+	]
+}

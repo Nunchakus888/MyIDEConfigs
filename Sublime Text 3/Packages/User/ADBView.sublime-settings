@@ -1,0 +1,4 @@
+{	
+	"adb_command" : "C:\\Users\\NoBug666\\AppData\\Roaming\\Sublime Text 3\\Packages\\APICloudLoader\\tools\\adb.exe",
+	"adb_args": ["logcat", "-v", "time","-s" ,"app3c"]
+}

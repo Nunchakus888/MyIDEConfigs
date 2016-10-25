@@ -1,0 +1,406 @@
+{
+	"folder_history":
+	[
+		"/F/APICloud/workspace/蜂巢社区"
+	],
+	"last_version": 3083,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/F/APICloud/workspace/蜂巢社区/group/group_detail_news.html",
+					"settings":
+					{
+						"buffer_size": 23815,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/F/APICloud/workspace/蜂巢社区/group/news_add_c.html",
+					"settings":
+					{
+						"buffer_size": 9231,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/F/APICloud/workspace/蜂巢社区/script/user.js",
+					"settings":
+					{
+						"buffer_size": 15201,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no\" />\n        <meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n        <meta name=\"format-detection\" content=\"telephone=no\">\n        <title>我的</title>\n        <!-- 基础样式及JS -->\n        <link rel=\"stylesheet\" href=\"../cool_css/cool.css\">\n    </head>\n    <body class=\"c-f2f2f2\">\n        <div id=\"content\">\n            <div class=\"box_content h110e w10 c-2c98e3 dspn\" id=\"login\">\n                <p class=\"ovd h70e pdt05 pdb05\">\n                    <span class=\"w10 tx-c\" onclick=\"openPicSheet('上传头像',uploadAvatar)\"><img id=\"avatar\"  class=\"w50e h50e uc-a30\"></span>\n                    <span class=\"w10 umh2 tx-c t-wh\"><font id=\"mobile\" class=\"ftz12\"></font></span>\n                </p>\n                <p class=\"ovd h30e\">\n                    <span class=\"h30e ftz08 w10 c-bla op7 t-wh pdt05 pdb05\"> <span class=\"sl w3 tx-c h30e\" tapmode=\"op8\" onclick=\"go_m_url('fav','../member/fav.html')\"> <span class=\"umh15\" id=\"favorite\">0</span> <span class=\"umh15\">我的收藏</span> </span> <span class=\"sl w4 tx-c\"> <span class=\"ubl ubr ub-wh\"> <span class=\"umh15\" id=\"amount\">¥0</span> <span class=\"umh15\" onclick=\"go_m_url('balance','../member/balance.html')\">账户余额</span> </span> </span> <span class=\"sl w3 tx-c h30e\"> <span class=\"umh15\" id=\"point\">0</span> <span class=\"umh15\">我的积分</span> </span> </span>\n                </p>\n            </div>\n            <div class=\"box_content h80e w10 c-2c98e3\" id=\"nologin\">\n                <p class=\"ovd h20e pdt30 pdb30 area_auto tx-c\">\n                    <span class=\"w55e umh2 uc-a10 tx-c c-wh area_auto\" tapmode=\"c-f2f2f2\" onclick=\"open_w('login','../member/login.html')\">登陆/注册</span>\n                </p>\n            </div>\n			<div class=\"box_content mart10 c-wh ubt ub-e4e4e4 ubb\">\n				<p class=\"ovd umh2 pd05 ubb ub-e4e4e4\" onclick=\"go_order_list(-1)\" tapmode=\"c-f2f2f2\">\n					<span class=\"sl\">我的订单</span>\n					<span class=\"h10e pdt05 pdb05 sr\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n				</p>\n				<div id=\"orders\" class=\"clo_five pdt05 pdb05\">\n					<div class=\"col_list pstnr\" onclick=\"go_order_list(0)\" tapmode=\"op8\">\n						<p class=\"w10 tx-c\"><img src=\"../image/icon/order_1.png\" class=\"w3\"></p>\n						<p class=\"w10 tx-c ftz08\">待付款</p>\n						<p class=\"w10e h10e pstna abst0 absr05 ftz08 umh1 t-wh c-ff4e49 tx-c uc-a05 dspn\" id=\"order_num_1\"><font class=\"ftz08\">0</font></p>\n					</div>\n					<div class=\"col_list pstnr\" onclick=\"go_order_list(1)\" tapmode=\"op8\">\n						<p class=\"w10 tx-c\"><img src=\"../image/icon/order_2.png\" class=\"w3\"></p>\n						<p class=\"w10 tx-c ftz08\">待发货</p>\n						<p class=\"w10e h10e pstna abst0 absr05 ftz08 umh1 t-wh c-ff4e49 tx-c uc-a05 dspn\" id=\"order_num_2\"><font class=\"ftz08\">0</font></p>\n					</div>\n					<div class=\"col_list pstnr\" onclick=\"go_order_list(2)\" tapmode=\"op8\">\n						<p class=\"w10 tx-c\"><img src=\"../image/icon/order_3.png\" class=\"w3\"></p>\n						<p class=\"w10 tx-c ftz08\">待收货</p>\n						<p class=\"w10e h10e pstna abst0 absr05 ftz08 umh1 t-wh c-ff4e49 tx-c uc-a05 dspn\" id=\"order_num_3\"><font class=\"ftz08\">0</font></p>\n					</div>\n					<div class=\"col_list pstnr\" onclick=\"go_order_list(3)\" tapmode=\"op8\">\n						<p class=\"w10 tx-c\"><img src=\"../image/icon/order_4.png\" class=\"w3\"></p>\n						<p class=\"w10 tx-c ftz08\">待评价</p>\n						<p class=\"w10e h10e pstna abst0 absr05 ftz08 umh1 t-wh c-ff4e49 tx-c uc-a05 dspn\" id=\"order_num_4\"><font class=\"ftz08\">0</font></p>\n					</div>\n					<div class=\"col_list pstnr\" onclick=\"go_order_list(5)\" tapmode=\"op8\">\n						<p class=\"w10 tx-c\"><img src=\"../image/icon/order_5.png\" class=\"w3\"></p>\n						<p class=\"w10 tx-c ftz08\">退款售后</p>\n						<p class=\"w10e h10e pstna abst0 absr05 ftz08 umh1 t-wh c-ff4e49 tx-c uc-a05 dspn\" id=\"order_num_5\"><font class=\"ftz08\">0</font></p>\n					</div>\n				</div>\n			</div>\n            <div class=\"box_content w10 t-8c8c8c mart10\">\n                <p class=\"ubb ubt ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"sign()\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/sign.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">签到</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"go_m_url('address','../member/address.html')\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/address.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">收货地址</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"go_m_url('cart_list','../member/cart_list.html')\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/cart.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">购物车</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"task_order_list()\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/task.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">完成任务</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"go_m_url('msg','../member/msg.html')\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/msg.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">消息</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"withdraw_recode_list()\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/money_bag.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">提现记录</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ubt ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh mart10\" tapmode=\"c-f2f2f2\" onclick=\"go_m_url('all_comment','../member/all_comment.html')\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/comment.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">我的评论</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"go_info('关于我们')\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/about.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">关于我们</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"go_m_url('feedback','../member/feedback.html')\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/feedback.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">意见反馈</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p class=\"ubb ub-e4e4e4 pdt05 pdb05 umh2 ovd c-wh\" tapmode=\"c-f2f2f2\" onclick=\"share()\">\n                    <span class=\"h10e pdt05 pdb05 sl pdl05 pdr05\"><img src=\"../image/icon/share.png\" class=\"w10e h10e\"></span>\n                    <span class=\"umh2 sl\">分享有礼</span>\n                    <span class=\"h10e pdt05 pdb05 sr pdr05\"><img src=\"../image/icon/right_gra.png\" class=\"w10e h10e\"></span>\n                </p>\n                <p id=\"property\" class=\"dspn ubb t-2c98e3 ubt ub-e4e4e4 c-wh ovd h20e mart10 pdt05 pdb05\" onclick=\"call()\">\n                    <span class=\"umh15 sl w10 tx-c ftz12 pdt01\"> <font class=\"icon-phone umh15 umh15 w20e h20e\"></font> 联系物业: <font class=\"ftz11\" id=\"property_phone\"></font></span>\n                </p>\n            </div>\n        </div>\n        <script type=\"text/javascript\" src=\"../script/api.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/init.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/user.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/api/user.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/api/sso.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/api/order.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/vendor/hprose.js\"></script>\n		<script type=\"text/javascript\" src=\"../script/sdk_wx.js\"></script>\n		<script type=\"text/javascript\" src=\"../script/sdk_qq.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/zepto.min.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/config/servers.js\"></script>\n        <script type=\"text/javascript\" src=\"../script/api/property.js\"></script>\n        <script type=\"text/javascript\">\n            apiready = function() {\n\n                loading(1);\n                check_login();\n                //注册登录事件\n                api.addEventListener({\n                    name : User.prototype.EVENT_LOGIN,\n                }, function(ret) {\n                    check_login();\n                    getOrders();\n                });\n                api.addEventListener({\n                    name : User.prototype.EVENT_LOGOUT,\n                }, function(ret) {\n                    check_login();\n                });\n            }\n\n            function call(){\n                var phone = $('#property_phone').html();\n                call_tel(phone);\n            }\n\n            function getOrders(){\n\n                var order = new Order();\n                order.orderNumbers(function(data){\n                    if(null != data){\n                        //待付款订单数\n                        if(parseInt(data[0])>0)\n                        {\n                        	$('#order_num_1').text(data[0]).removeClass(\"dspn\");\n                        }\n                        else\n                        {\n                        	$('#order_num_1').text(0).addClass(\"dspn\");\n                        }\n                        //待发货\n                        if(parseInt(data[1])>0)\n                        {\n                        	$('#order_num_2').text(data[1]).removeClass(\"dspn\");\n                        }\n                        else\n                        {\n                        	$('#order_num_2').text(0).addClass(\"dspn\");\n                        }\n                        //待收货\n                        if(parseInt(data[2])>0)\n                        {\n                        	$('#order_num_3').text(data[2]).removeClass(\"dspn\");\n                        }\n                        else\n                        {\n                        	$('#order_num_3').text(0).addClass(\"dspn\");\n                        }\n                        //待评价\n                        if(parseInt(data[3])>0)\n                        {\n                        	$('#order_num_4').text(data[3]).removeClass(\"dspn\");\n                        }\n                        else\n                        {\n                        	$('#order_num_4').text(0).addClass(\"dspn\");\n                       	}\n\n                        var favorite = data.favorite + data.favorite_shop;\n                        $('#favorite').text(favorite);\n                    }\n                });\n            }\n\n			function sign()\n			{\n				$toast(\"签到成功\");\n			}\n			function go_order_list(status)\n			{\n				var user = new User();\n			    if (!user.isLogin()) {\n			        open_w(\"login\", 'widget://member/login.html');\n			    } else {\n			       var pageParam= new Object();\n			    	pageParam.status=status;\n			    	open_w(\"order_list\",\"../member/order_list.html\",pageParam);\n			    }\n			}\n            function uploadAvatar(ret, err) {\n                if (ret) {\n                    loading(0);\n                    var user = new User();\n                    var userId = user.getID();\n                    var url = 'http://i.ejlife.cn/index.php?m=attachment&c=attachments&a=app_avatar_upload&name=face&APP=true&userid=' + userId + '&module=sso';\n                    imageCompress(ret.data, 0.5, 0.5, function(path, name){\n                        api.ajax({\n                            'url' : url,\n                            method : 'post',\n                            timeout : 30,\n                            dataType : 'json',\n                            returnAll : false,\n                            data : {\n                                files : {\n                                    face : path+name\n                                }\n                            }\n                        }, function(ret, err) {\n                            if (ret) {\n                                if ('SUCCESS' == ret.state) {\n                                    loading(-1);\n                                    var new_avatar = ret.url;\n                                    console.log(\"new_avatar---->\" + ret.url);\n                                    $(\"#avatar\").attr('src', new_avatar);\n                                    $toast('上传成功');\n                                    api.clearCache(function(){\n                                        user.setAvatar(new_avatar);\n                                    });\n\n                                    \n                                }\n                            } else {\n                                loading(-1);\n                                $toast('上传失败');\n                            }\n\n                        });\n                        \n                    });\n                } else {\n                    $toast('请检查网络设置');\n                }\n            }\n\n            function check_login() {\n                loading(-1);\n                var user = new User();\n\n                if (user.isLogin()) {\n                    $(\"#nologin\").addClass(\"dspn\");\n                    $(\"#login\").removeClass(\"dspn\");\n                    var username = user.getName();\n                    var nickname = user.getnickName();\n                    var avatar = user.getAvatar();\n                    var amount = user.getAmount();\n                    var point = user.getPoint();\n                    if ('' != avatar) {\n                        $(\"#avatar\").attr('src', avatar);\n                    }\n                    if('' != nickname){\n                        $(\"#mobile\").text(nickname);\n                    } else {\n                        $(\"#mobile\").text(username);\n                    }\n                    $(\"#amount\").text(amount);\n                    $(\"#point\").text(point);\n                    var property = new Property();\n                    property.defaultProperty(function(data){\n                        if(null != data){\n                            $(\"#property\").show();\n                            $('#property_phone').html(data.tel);\n                        }\n                    });\n                } else {\n                    $(\"#nologin\").removeClass(\"dspn\");\n                    $(\"#login\").addClass(\"dspn\");\n                    for(var i = 1; i < 6; i++){//订单数目掩藏\n                        $('#order_num_' + i).text(0).addClass(\"dspn\");\n                    }\n                    $(\"#property\").hide();\n                }\n            }\n            function go_info(info_name)\n            {\n            	var pageParam = new Object();\n	            pageParam.info_name = info_name;\n	            pageParam.info_name = info_name;\n	            open_w(\"info_detail\", \"../info/detail.html\", pageParam);\n            }\n			function share()\n			{\n				api.actionSheet(\n				{\n					title : '分享有礼',\n					cancelTitle : '关闭',\n					buttons : ['微信好友', '微信朋友圈','QQ好友','QQ空间','短信分享']\n				}, function(ret, err)\n				{\n					if (ret.buttonIndex == 1)\n					{\n						wx_share('session','web_page','蜂巢社区','关于蜂巢社区的介绍','widget://image/logo.png','http://admin.weixinxa.com/wx_web/custom/app_qrcode/fcsq/')\n					}\n					else if (ret.buttonIndex == 2)\n					{\n						wx_share('timeline','web_page','蜂巢社区','关于蜂巢社区的介绍 ','widget://image/logo.png','http://admin.weixinxa.com/wx_web/custom/app_qrcode/fcsq/')\n					}\n					else if (ret.buttonIndex == 3)\n					{\n						sdk_qq_share_url('http://admin.weixinxa.com/wx_web/custom/app_qrcode/fcsq/','widget://image/logo.png','蜂巢社区','关于蜂巢社区的介绍','QFriend')\n					}\n					else if (ret.buttonIndex == 4)\n					{\n						sdk_qq_share_url('http://admin.weixinxa.com/wx_web/custom/app_qrcode/fcsq/','widget://image/logo.png','蜂巢社区','关于蜂巢社区的介绍','QZone')\n					}\n					else if (ret.buttonIndex == 5)\n					{\n						send_sms('','亲，我正在使用蜂巢社区客户端，很好用啊，请下载。http://admin.weixinxa.com/wx_web/custom/app_qrcode/fcsq/');\n					}\n				});\n			}\n			\n			//已完成的任务\n			function task_order_list()\n			{\n				open_w(\"task_order_list\",'../task/order_list.html');\n			}\n			\n			function withdraw_recode_list()\n			{\n				open_w(\"withdraw_recode_list\",'../task/withdraw_recode_list.html');\n			}\n        </script>\n    </body>\n</html>\n",
+					"file": "/F/APICloud/workspace/蜂巢社区/html/member.html",
+					"file_size": 18723,
+					"file_write_time": 130999169489504164,
+					"settings":
+					{
+						"buffer_size": 17856,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 104.0,
+				"last_filter": "install",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 1142.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/F/APICloud/workspace/蜂巢社区",
+				"/F/APICloud/workspace/蜂巢社区/html"
+			],
+			"file_history":
+			[
+				"/F/APICloud/workspace/蜂巢社区/group/get_location_c.html",
+				"/F/APICloud/workspace/蜂巢社区/shop_adv/index.html",
+				"/F/APICloud/workspace/蜂巢社区/shop_adv/adv_url.html",
+				"/F/APICloud/workspace/蜂巢社区/group/group_detail_news.html",
+				"/F/APICloud/workspace/蜂巢社区/html/member.html",
+				"/F/APICloud/workspace/蜂巢社区/script/api/user.js",
+				"/F/APICloud/workspace/蜂巢社区/group/comment_list_c.html",
+				"/F/APICloud/workspace/蜂巢社区/group/news_add_c.html",
+				"/F/APICloud/workspace/蜂巢社区/group/group_user_news_c.html",
+				"/F/APICloud/workspace/蜂巢社区/group/group_user_news.html",
+				"/F/APICloud/workspace/蜂巢社区/task/task_index.html",
+				"/C/Users/NoBug666/AppData/Roaming/Sublime Text 3/Packages/User/ADBView.sublime-settings",
+				"/C/Users/NoBug666/AppData/Roaming/Sublime Text 3/Packages/ADBView/ADBView.sublime-settings",
+				"/C/Users/NoBug666/AppData/Roaming/Sublime Text 3/Packages/APICloudLoader/appLoader/A6982416204125/load.conf",
+				"/F/APICloud/workspace/蜂巢社区/cool_css/base.css",
+				"/F/APICloud/workspace/蜂巢社区/script/user.js",
+				"/F/APICloud/workspace/蜂巢社区/member/reg2_c.html",
+				"/F/APICloud/workspace/蜂巢社区/member/reg2.html",
+				"/F/APICloud/workspace/蜂巢社区/member/reg1_c.html",
+				"/F/APICloud/workspace/蜂巢社区/member/reg1.html",
+				"/F/APICloud/workspace/蜂巢社区/member/reg.html",
+				"/F/APICloud/workspace/蜂巢社区/member/reg_c.html"
+			],
+			"find":
+			{
+				"height": 31.0
+			},
+			"find_in_files":
+			{
+				"height": 105.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"avatar",
+					"avatar\"",
+					"get_location_icon",
+					"set_location",
+					"get_location",
+					"set_location",
+					"ajaxUpload",
+					"uploadPicture",
+					"openMultiPicSheet",
+					"社区商城",
+					"getAvatar",
+					"function getAvatar",
+					"function getAvatarfunction",
+					"getAvatarfunction",
+					"\\",
+					"[i]",
+					"addressComponet",
+					"city",
+					",",
+					"select_location",
+					"user.prototype.login",
+					"login",
+					"reg",
+					"login"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "F:\\APICloud\\workspace\\蜂巢社区"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/F/APICloud/workspace/蜂巢社区/group/group_detail_news.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 23815,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1140,
+										1140
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 759.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/F/APICloud/workspace/蜂巢社区/group/news_add_c.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 9231,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6095,
+										6095
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2553.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/F/APICloud/workspace/蜂巢社区/script/user.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 15201,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9777,
+										9777
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 8192.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/F/APICloud/workspace/蜂巢社区/html/member.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 17856,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										13988,
+										13988
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 6003.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 31.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-1,-1,-1,-1,719,217,180,873",
+			"project": "",
+			"replace":
+			{
+				"height": 58.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 242.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
