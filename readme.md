@@ -4,3 +4,4 @@
 使用方法
 ---------
     clone项目 import setting
+    sublime主题： eclectide-monokai-142.jar
