@@ -3,7 +3,8 @@
 ![](https://github.com/Nunchakus888/MyIDEConfigs/blob/master/webstorm.png)
 使用方法
 ---------
-    * clone项目
-    * 打开IDE > file > import setting :
-        导入 sublime主题： eclectide-monokai-142.jar ;restart
-        导入字号&快捷键设置： settings-mac-os-webstorm.jar ;restart
+
+* clone项目
+* 打开IDE > file > import setting :
+    导入 sublime主题： eclectide-monokai-142.jar ;restart
+    导入字号&快捷键设置： settings-mac-os-webstorm.jar ;restart
