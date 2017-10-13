@@ -16,9 +16,9 @@
 
 必知备快捷键
 ------
-| 操作           | webstorm                      | sublime  |  说明                   
-| --------      | -----:                          | :----:  | :----:                
-| 全局搜索       | command + shift + F             | === |                       
+| 操作           | webstorm | sublime  |  说明                   
+| --------       | -------: | :----:   | :----:                
+| 全局搜索       | command+shift+F             | === |                       
 | 局部搜索       | command + F                     | ===  |                       
 | Add selection for next occurrence              | command + D  | ctrl（^） + G |         
 | Extend selection | option（⌥） + ↑              | ctrl + shift + M     |  这个纯键盘操作，很方便          
