@@ -24,6 +24,7 @@
 | Extend selection | option（⌥） + ↑              | ctrl + shift + M     |  这个纯键盘操作，很方便          
 | 复制一行       | command + D                    | command + shift + D  |   注意光标选中与否情况不同，自测     
 | 唤起/关闭自带Terminal | command + T             | -  |   DIY，根据个人习惯修改       
+| reopen上次关闭tab | command + shift + w             | -  |   DIY，方便记忆，关闭tab是默认快捷键：command + w       
 
 
 * ctrl      === ^
