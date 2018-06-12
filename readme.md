@@ -9,8 +9,9 @@
 * 打开IDE > file > import settings :
     + 导入 sublime主题： eclectide-monokai-142.jar ;restart
     + 导入字号&快捷键设置： settings-mac-os-webstorm.jar ;restart
+    + [主题大全](http://color-themes.com)
     
-* 导出自己IDE的配置：
+* tips: 导出自己IDE的配置：
     + file > export settings
     + .jar文件
 
