@@ -13,7 +13,7 @@
     
 * tips: 导出自己IDE的配置：
     + file > export settings
-    + .jar文件
+    + (.jar|.zip)文件
 
 必知备快捷键
 ------
@@ -31,3 +31,22 @@
 * ctrl      === ^
 * option    === ⌥
 * command === 🙄
+
+
+
+
+### 沉浸式星空编辑器
+
+* 设置如图：
+
+![img.png](bg/bg-setting.png)
+
+背景图采用的是macos 系统壁纸，可以自行替换
+
+
+* preview
+
+![](bg/galaxy.png)
+![](bg/galaxy-file-tree.png)
+
+
